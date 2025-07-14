@@ -1,0 +1,28 @@
+a="Hello World"
+print(type(a))
+b=20
+print(type(b))
+c=20.5
+print(type(c))
+d=1j
+print(type(d))
+e=["apple","banana","cherry"]
+print(type(e))
+f=("apple","banana","cherry")
+print(type(f))
+g=range(6)
+print(g)
+print(type(g))
+h={
+    "name":"Aaradhya",
+    "age":23
+}
+print(type(h))
+i={"apple","banana","cherry"}
+print(type(i))
+j=frozenset({"apple","banana","cherry"})
+print(type(j))
+k=True
+print(type(k))
+l=None
+print(type(l))
