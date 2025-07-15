@@ -55,3 +55,5 @@ Be open for unexpected question, rather ask to explain, you gotta be in feeback 
 OnQuestion on code ask Guessing then run
 IDC. IK-All
 Teach good coding standard
+I taught input in class2, don't mean i should use it in class2, i can use in class 4 as HW/CW
+Revise course fast vs Give time
