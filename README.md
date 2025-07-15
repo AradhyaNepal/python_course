@@ -49,7 +49,7 @@ Slow and drawing.
 Teach real life experiecne and advance, but in simple way. 
 Ask Question. If i run this what will happen
 Give an example then teach as per it.
-Classwork
+Classwork. And check one by one. followup
 Give homework and topic to research
 Be open for unexpected question, rather ask to explain, you gotta be in feeback loop
 OnQuestion on code ask Guessing then run
