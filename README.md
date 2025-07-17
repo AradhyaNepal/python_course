@@ -1,6 +1,45 @@
 # DataTypes
 
 
+pip install -r requirement.txt
+pip show package
+pip install package
+pip uninstall package
+pip freeze > requirement.txt
+python -m venv [envName]
+
+naming convention: snake_case
+No need to add var
+just
+my_name="Aaradhya"
+
+x=5
+x=10
+x,y,z=5,10,15
+
+result=5+3
+result=7-4
+result=2*6
+result=10/3 => 3.333
+result=10//3 => 3
+result=10%3 => 1
+result=2**3 =>8
+
+
+Arithmetic Operator: + - * / // % **
+Comparison Operator: == != > < >= <=
+Logical Operators: and, or, not
+membership: in, not in
+identity operator: is, is not
+Assignment: = += -= *= /= %= //= :=
+
+
+text: str
+numeric: int float complex
+sequence list, tuple, range
+dict
+frozenset
+bool None
 
 
 

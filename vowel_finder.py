@@ -1,15 +1,15 @@
 """
-Ask from user
+Ask word from user
 If it contains vowel print: It has vowel
 Else print: Does not vowel
 """
 
 print("Welcome to vowel finder")
-print("Vowel are letter which contains a,e,i,o,u")
+print("Vowel are word which contains a,e,i,o,u")
 print("-----------------------------------------")
-letter=input("Enter a letter: ")
+word=input("Enter a word: ")
 print("-----------------------------------------")
-if letter=="a" or letter=="A" or letter=="e" or letter=="E" or letter=="i" or letter=="I" or letter=="o" or letter=="O" or letter=="u" or letter=="U":
+if "a" in word or "A" in word or "e" in word or "E" in word or "i" in word or "I" in word or "o" in word or "O" in word or "u" in word or "U" in word:
     print("Letter is vowel")
 else:
     print("Letter is not vowel")
