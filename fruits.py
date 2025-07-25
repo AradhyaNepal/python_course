@@ -5,7 +5,7 @@ while True:
     print("What action you can to perform")
     print("1. Add a new fruit")
     have_some_fruit=len(fruits)>0
-    if have_some_fruit>0:
+    if have_some_fruit:
         print("2. Remove one fruit")
         print("3. Edit one fruit")
     print("e. Exit")
