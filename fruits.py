@@ -17,12 +17,24 @@ while True:
         fruits.append(new_item)
     elif value=="2" and have_some_fruit:
          item_to_remove=input("Enter fruit you want to remove: ")
-         fruits.remove(item_to_remove)
+         if item_to_remove in fruits:
+            fruits.remove(item_to_remove)
+         else:
+             print(f"{item_to_remove} not found in the inventory")    
     elif value=="3" and have_some_fruit:
         value_to_update=input("Which fruit you want to update: ")
-        from_what_to_update=input(f"From what you want to update {value_to_update}: ")
-        fruits.remove(value_to_update)
-        fruits.append(from_what_to_update)
+        
+        auto_found_index=-1
+        for i in range(len(fruits)):
+            if fruits[i]==value_to_update:
+                auto_found_index=i
+                break
+        if auto_found_index!=-1:
+           print(f"{value_to_update} is located at {auto_found_index+1} position of the inventory")
+           from_what_to_update=input(f"Which fruit you want to put in this place: ")
+           fruits[auto_found_index]=from_what_to_update
+        else:
+            print(f"{value_to_update} not found in the inventory")   
     else:
         print("Please pick valid options")
 
